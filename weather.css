@@ -1,0 +1,32 @@
+body {
+  background-size: cover;
+  height: auto;
+  padding-top: 21%;/*220px*/
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.btn-action {
+  opacity: .822;
+  background-color: black;
+  border-color: grey;
+  color: #337ab7;
+}
+
+.plack {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  min-width: 300px;
+  background-color: rgba(255, 255, 255, 0.59);
+  border-radius: 6px;
+  border: grey;
+  padding-bottom: .05%;
+}
+
+@media only screen and (max-width:719px) {
+  body {
+    padding-top: 5%;
+  }
+}
